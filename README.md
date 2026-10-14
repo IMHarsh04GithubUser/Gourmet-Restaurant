@@ -96,4 +96,20 @@ Build both frontends and host each `dist` directory with SPA fallback to `index.
 
 Host the API as a persistent Node service with MongoDB and a persistent `RestBackend/uploads` directory. A plain Vercel function is not a suitable drop-in host for local image uploads. A future deployment can move images to object storage. Set reverse-proxy hop count only for a known proxy arrangement. In-memory rate limits are per API process; use a shared limiter before scaling to multiple API instances.
 
+### Render backend
+
+Create a Render Web Service from this repository with **Root Directory** `RestBackend`, **Build Command** `npm ci`, and **Start Command** `npm start`. Configure the service to use Node.js 20.19 or newer and set its health check path to `/api/health`.
+
+Add these in Render's environment settings (do not commit or upload `.env`):
+
+- `MONGO_URI`: production MongoDB connection string. For Atlas, configure database credentials and allow the Render service's outbound connections.
+- `SECRET_KEY`: a unique random secret with at least 32 characters.
+- `CLIENT_ORIGINS`: the exact HTTPS origins of both deployed frontends, separated by a comma.
+- `TRUST_PROXY_HOPS`: `1` for Render's proxy, so client IP-based rate limits use the originating client address.
+- `DELIVERY_FEE_PAISE`: optional; defaults to `200`.
+- `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET`, and `RAZORPAY_WEBHOOK_SECRET`: optional; configure all three for live Razorpay payments. Set the Razorpay webhook URL to `https://<backend-domain>/api/payments/webhook`.
+- `GMAIL_USER` and `GMAIL_PASS`: optional reservation email sender and Gmail App Password.
+
+Menu photos already in `RestBackend/public/menu` are deployed with the service. To preserve photos uploaded from the admin panel across restarts and deploys, attach a persistent disk mounted at `/opt/render/project/src/RestBackend/uploads`; without persistent storage, uploaded photos may be lost. After configuring MongoDB, run `npm run seed` and `npm run create-admin` from the service shell once. Set a strong, unique `ADMIN_PASSWORD` only for admin creation, then remove it from the Render environment.
+
 See **[docs/TESTING.md](docs/TESTING.md)** for the verification results and a hands-on test checklist.

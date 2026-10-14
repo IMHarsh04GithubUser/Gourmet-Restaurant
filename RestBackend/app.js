@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
+const mongoose = require("mongoose");
 const crypto = require("node:crypto");
 const fs = require("node:fs");
 const path = require("node:path");
@@ -56,8 +57,15 @@ function createApp({ env = process.env, gateway = null } = {}) {
     .split(",")
     .map((x) => x.trim());
   app.disable("x-powered-by");
-  if (env.TRUST_PROXY_HOPS)
-    app.set("trust proxy", Number(env.TRUST_PROXY_HOPS));
+  if (env.TRUST_PROXY_HOPS) {
+    const trustProxyHops = Number(env.TRUST_PROXY_HOPS);
+    check(
+      Number.isSafeInteger(trustProxyHops) && trustProxyHops >= 1,
+      "TRUST_PROXY_HOPS must be a positive integer.",
+      500,
+    );
+    app.set("trust proxy", trustProxyHops);
+  }
   app.use(
     cors({
       origin(origin, cb) {
@@ -168,7 +176,10 @@ function createApp({ env = process.env, gateway = null } = {}) {
       dotfiles: "deny",
     }),
   );
-  app.get("/api/health", (req, res) => res.json({ ok: true }));
+  app.get("/api/health", (req, res) => {
+    const ready = mongoose.connection.readyState === 1;
+    res.status(ready ? 200 : 503).json({ ok: ready });
+  });
   app.get("/api/config", (req, res) =>
     res.json({
       currency: "INR",
