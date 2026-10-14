@@ -7,4 +7,5 @@ dist/
 RestBackend/tests/.test-db-*/
 RestBackend/uploads/*
 !RestBackend/uploads/.gitkeep
+.env.example
 
