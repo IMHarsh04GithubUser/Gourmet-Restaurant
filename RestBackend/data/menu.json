@@ -1,0 +1,482 @@
+[
+  {
+    "seedKey": "salad-1",
+    "name": "Caesar Salad",
+    "price": 100,
+    "category": "Salad",
+    "image": "/media/menu/salad-1.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-2",
+    "name": "Greek Salad",
+    "price": 150,
+    "category": "Salad",
+    "image": "/media/menu/salad-2.webp",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-3",
+    "name": "Caprese Salad",
+    "price": 200,
+    "category": "Salad",
+    "image": "/media/menu/salad-3.webp",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-4",
+    "name": "Cobb Salad",
+    "price": 250,
+    "category": "Salad",
+    "image": "/media/menu/salad-4.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-5",
+    "name": "Spinach Salad",
+    "price": 300,
+    "category": "Salad",
+    "image": "/media/menu/salad-5.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-6",
+    "name": "Chana Chaat",
+    "price": 350,
+    "category": "Salad",
+    "image": "/media/menu/salad-6.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-7",
+    "name": "Waldorf Salad",
+    "price": 400,
+    "category": "Salad",
+    "image": "/media/menu/salad-7.webp",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-8",
+    "name": "SouthWest Salad",
+    "price": 120,
+    "category": "Salad",
+    "image": "/media/menu/salad-8.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-9",
+    "name": "Quinoa Salad",
+    "price": 180,
+    "category": "Salad",
+    "image": "/media/menu/salad-9.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-10",
+    "name": "Caprese Salad",
+    "price": 280,
+    "category": "Salad",
+    "image": "/media/menu/salad-10.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-11",
+    "name": "Avocado Salad",
+    "price": 320,
+    "category": "Salad",
+    "image": "/media/menu/salad-11.avif",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "salad-12",
+    "name": "Fruit Salad",
+    "price": 250,
+    "category": "Salad",
+    "image": "/media/menu/salad-12.jpg",
+    "description": "A fresh, flavourful bowl to start your meal."
+  },
+  {
+    "seedKey": "starter-1",
+    "name": "Paneer-Tikka",
+    "price": 120,
+    "category": "Starter",
+    "image": "/media/menu/starter-1.jpeg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-2",
+    "name": "Vegetable Pakoda",
+    "price": 200,
+    "category": "Starter",
+    "image": "/media/menu/starter-2.jpeg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-3",
+    "name": "Aloo Tikki",
+    "price": 150,
+    "category": "Starter",
+    "image": "/media/menu/starter-3.webp",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-4",
+    "name": "Hara Bhara Kabab",
+    "price": 300,
+    "category": "Starter",
+    "image": "/media/menu/starter-4.jpeg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-5",
+    "name": "Dahi Puri",
+    "price": 180,
+    "category": "Starter",
+    "image": "/media/menu/starter-5.jpg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-6",
+    "name": "Stuff Mushrooms",
+    "price": 350,
+    "category": "Starter",
+    "image": "/media/menu/starter-6.jpg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-7",
+    "name": "Vegetable Spring Rolls",
+    "price": 280,
+    "category": "Starter",
+    "image": "/media/menu/starter-7.webp",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-8",
+    "name": "Corn Cheese Balls",
+    "price": 250,
+    "category": "Starter",
+    "image": "/media/menu/starter-8.jpg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-9",
+    "name": "Bhel Puri",
+    "price": 220,
+    "category": "Starter",
+    "image": "/media/menu/starter-9.jpg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-10",
+    "name": "Chilli Paneer",
+    "price": 300,
+    "category": "Starter",
+    "image": "/media/menu/starter-10.jpeg",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-11",
+    "name": "Pani Puri",
+    "price": 120,
+    "category": "Starter",
+    "image": "/media/menu/starter-11.webp",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "starter-12",
+    "name": "Palak Chaat",
+    "price": 400,
+    "category": "Starter",
+    "image": "/media/menu/starter-12.webp",
+    "description": "A delicious start, made for sharing."
+  },
+  {
+    "seedKey": "drinks-1",
+    "name": "Masala Chai",
+    "price": 100,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-1.jpg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-2",
+    "name": "Lassi",
+    "price": 150,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-2.jpg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-3",
+    "name": "Jaljeera",
+    "price": 120,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-3.webp",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-4",
+    "name": "Chocolate Shake",
+    "price": 180,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-4.jpg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-5",
+    "name": "Butterscotch Shake",
+    "price": 200,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-5.jpeg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-6",
+    "name": "Virgin Mojito",
+    "price": 300,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-6.jpeg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-7",
+    "name": "Mango Mint Cooler",
+    "price": 250,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-7.jpeg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-8",
+    "name": "Ice Coffee",
+    "price": 350,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-8.jpg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-9",
+    "name": "Tender Coconut Water",
+    "price": 220,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-9.webp",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-10",
+    "name": "Thumps Up",
+    "price": 150,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-10.jpeg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-11",
+    "name": "Lime Water: Salt/Sugar/Mix",
+    "price": 100,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-11.jpeg",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "drinks-12",
+    "name": "Buttermilk (Chaas)",
+    "price": 120,
+    "category": "Drinks",
+    "image": "/media/menu/drinks-12.webp",
+    "description": "A refreshing companion to your favourite meal."
+  },
+  {
+    "seedKey": "lunch-1",
+    "name": "Aloo Ghobi",
+    "price": 200,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-1.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-2",
+    "name": "Chana Masala",
+    "price": 250,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-2.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-3",
+    "name": "Dal Makhni",
+    "price": 300,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-3.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-4",
+    "name": "Dum Aloo",
+    "price": 280,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-4.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-5",
+    "name": "Malai Kofta",
+    "price": 350,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-5.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-6",
+    "name": "Palak Paneer",
+    "price": 320,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-6.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-7",
+    "name": "Paneer Butter Masala",
+    "price": 400,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-7.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-8",
+    "name": "Rajma",
+    "price": 150,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-8.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-9",
+    "name": "Rice",
+    "price": 100,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-9.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-10",
+    "name": "Vegetable Biryani",
+    "price": 200,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-10.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-11",
+    "name": "Aloo Paratha",
+    "price": 180,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-11.jpg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "lunch-12",
+    "name": "Roti",
+    "price": 120,
+    "category": "Lunch",
+    "image": "/media/menu/lunch-12.jpeg",
+    "description": "Comforting flavours from our kitchen."
+  },
+  {
+    "seedKey": "dessert-1",
+    "name": "Gulab Jamun",
+    "price": 120,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-1.webp",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-2",
+    "name": "Rasmalai",
+    "price": 150,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-2.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-3",
+    "name": "Jalebi",
+    "price": 200,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-3.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-4",
+    "name": "Kheer",
+    "price": 180,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-4.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-5",
+    "name": "Gajar ka Halwa",
+    "price": 250,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-5.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-6",
+    "name": "Rasgulla",
+    "price": 300,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-6.jpg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-7",
+    "name": "Malpua",
+    "price": 280,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-7.jpg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-8",
+    "name": "Mysore Pak",
+    "price": 350,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-8.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-9",
+    "name": "Kulfi",
+    "price": 200,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-9.webp",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-10",
+    "name": "Ice Cream - Stawberry/ButterScotch/Vanilla/Chocolate",
+    "price": 250,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-10.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-11",
+    "name": "BaluShahi",
+    "price": 150,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-11.jpeg",
+    "description": "A little sweetness to finish your meal."
+  },
+  {
+    "seedKey": "dessert-12",
+    "name": "Rabri",
+    "price": 400,
+    "category": "Dessert",
+    "image": "/media/menu/dessert-12.jpg",
+    "description": "A little sweetness to finish your meal."
+  }
+]

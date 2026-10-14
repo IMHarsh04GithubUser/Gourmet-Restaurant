@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+RestBackend/tests/.test-db-*/
+RestBackend/uploads/*
+!RestBackend/uploads/.gitkeep

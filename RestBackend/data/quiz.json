@@ -1,0 +1,134 @@
+[
+  {
+    "id": "q1",
+    "question": "Which ingredient is the main source of protein in paneer tikka?",
+    "options": [
+      "Paneer",
+      "Potato",
+      "Rice",
+      "Sugar"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q2",
+    "question": "Which grain is traditionally used in risotto?",
+    "options": [
+      "Rice",
+      "Wheat",
+      "Millet",
+      "Corn"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q3",
+    "question": "What gives turmeric its yellow colour?",
+    "options": [
+      "Curcumin",
+      "Chlorophyll",
+      "Caffeine",
+      "Lactose"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q4",
+    "question": "Which of these is a fermented dairy drink?",
+    "options": [
+      "Lemonade",
+      "Lassi",
+      "Black coffee",
+      "Coconut water"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Which ingredient is the base of hummus?",
+    "options": [
+      "Chickpeas",
+      "Kidney beans",
+      "Potatoes",
+      "Oats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q6",
+    "question": "What does blanching usually involve?",
+    "options": [
+      "Brief boiling followed by cooling",
+      "Freezing for a week",
+      "Dry roasting",
+      "Slow baking"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q7",
+    "question": "Which herb is commonly used in pesto?",
+    "options": [
+      "Mint",
+      "Basil",
+      "Dill",
+      "Bay leaf"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Which dish is made with chickpeas?",
+    "options": [
+      "Chana masala",
+      "Dal makhani",
+      "Aloo gobi",
+      "Palak paneer"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q9",
+    "question": "Which of these is a citrus fruit?",
+    "options": [
+      "Banana",
+      "Apple",
+      "Orange",
+      "Grape"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "q10",
+    "question": "What is the main ingredient in traditional guacamole?",
+    "options": [
+      "Avocado",
+      "Peas",
+      "Spinach",
+      "Cucumber"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "q11",
+    "question": "Which spice is made from the dried stigma of a flower?",
+    "options": [
+      "Cinnamon",
+      "Saffron",
+      "Cumin",
+      "Clove"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q12",
+    "question": "Which of these is a leafy vegetable?",
+    "options": [
+      "Spinach",
+      "Carrot",
+      "Potato",
+      "Radish"
+    ],
+    "answer": 0
+  }
+]

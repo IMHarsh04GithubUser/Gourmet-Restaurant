@@ -1,0 +1,14 @@
+{
+  "name": "gourmat-garden",
+  "version": "2.0.0",
+  "private": true,
+  "engines": {"node": ">=20.19"},
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "seed": "npm --prefix RestBackend run seed",
+    "create-admin": "npm --prefix RestBackend run create-admin",
+    "build": "npm --prefix Restaurant run build && npm --prefix AdminPanel run build",
+    "test": "npm --prefix RestBackend test"
+  }
+}
