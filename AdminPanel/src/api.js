@@ -1,4 +1,4 @@
-export const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:3000').replace(/\/$/, '');
+export const API_URL = (import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://gourmet-restaurant-1.onrender.com' : 'http://localhost:3000')).replace(/\/$/, '');
 export const money = value => new Intl.NumberFormat('en-IN', { style:'currency',currency:'INR',maximumFractionDigits:value%100?2:0 }).format((value||0)/100);
 export const imageUrl = value => value?.startsWith('/media/') || value?.startsWith('/uploads/') ? `${API_URL}${value}` : value ? `${API_URL}/uploads/${encodeURIComponent(value)}` : '/placeholder.svg';
 export function stored() { try { return JSON.parse(sessionStorage.getItem('gg-admin-v2')) || null; } catch { return null; } }

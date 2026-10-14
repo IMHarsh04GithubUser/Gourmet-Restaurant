@@ -104,12 +104,14 @@ Add these in Render's environment settings (do not commit or upload `.env`):
 
 - `MONGO_URI`: production MongoDB connection string. For Atlas, configure database credentials and allow the Render service's outbound connections.
 - `SECRET_KEY`: a unique random secret with at least 32 characters.
-- `CLIENT_ORIGINS`: the exact HTTPS origins of both deployed frontends, separated by a comma.
+- `CLIENT_ORIGINS`: optional additional allowed origins, separated by commas. The deployed customer and admin origins below are allowed by default.
 - `TRUST_PROXY_HOPS`: `1` for Render's proxy, so client IP-based rate limits use the originating client address.
 - `DELIVERY_FEE_PAISE`: optional; defaults to `200`.
 - `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET`, and `RAZORPAY_WEBHOOK_SECRET`: optional; configure all three for live Razorpay payments. Set the Razorpay webhook URL to `https://<backend-domain>/api/payments/webhook`.
 - `GMAIL_USER` and `GMAIL_PASS`: optional reservation email sender and Gmail App Password.
 
 Menu photos already in `RestBackend/public/menu` are deployed with the service. To preserve photos uploaded from the admin panel across restarts and deploys, attach a persistent disk mounted at `/opt/render/project/src/RestBackend/uploads`; without persistent storage, uploaded photos may be lost. After configuring MongoDB, run `npm run seed` and `npm run create-admin` from the service shell once. Set a strong, unique `ADMIN_PASSWORD` only for admin creation, then remove it from the Render environment.
+
+For these deployed sites, the backend URL is `https://gourmet-restaurant-1.onrender.com`, the customer site is `https://gourmet-restaurant-omega.vercel.app`, and the admin panel is `https://gourmet-restaurant-tiru.vercel.app`. The tracked frontend `.env.production` files set the Render API URL and admin-to-customer link. If Vercel project environment variables override them, set `VITE_API_URL` to the backend URL in both projects and `VITE_CUSTOMER_URL` to the customer URL in the admin project. Redeploy the Render service and both Vercel projects after pushing these changes; deployment dashboards cannot be updated from this workspace.
 
 See **[docs/TESTING.md](docs/TESTING.md)** for the verification results and a hands-on test checklist.

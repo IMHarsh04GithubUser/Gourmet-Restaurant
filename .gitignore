@@ -2,10 +2,11 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.example
+!Restaurant/.env.production
+!AdminPanel/.env.production
 *.log
 .DS_Store
 RestBackend/tests/.test-db-*/
 RestBackend/uploads/*
 !RestBackend/uploads/.gitkeep
-.env.example
-

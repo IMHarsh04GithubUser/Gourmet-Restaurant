@@ -51,11 +51,15 @@ function createApp({ env = process.env, gateway = null } = {}) {
     gateway && env.RAZORPAY_KEY_ID && env.RAZORPAY_KEY_SECRET,
   );
   const app = express();
-  const origins = (
-    env.CLIENT_ORIGINS || "http://localhost:5173,http://localhost:5174"
-  )
-    .split(",")
-    .map((x) => x.trim());
+  const origins = [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://gourmet-restaurant-omega.vercel.app",
+    "https://gourmet-restaurant-tiru.vercel.app",
+    ...(env.CLIENT_ORIGINS || "").split(","),
+  ]
+    .map((x) => x.trim())
+    .filter(Boolean);
   app.disable("x-powered-by");
   if (env.TRUST_PROXY_HOPS) {
     const trustProxyHops = Number(env.TRUST_PROXY_HOPS);

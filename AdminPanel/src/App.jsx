@@ -3,7 +3,7 @@ import { Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import { Leaf, LayoutDashboard, Utensils, Plus, CalendarDays, Trophy, LogOut, RefreshCw, ImagePlus, ArrowRight, Package, CreditCard, Clock3, Menu as MenuIcon, Search, CheckCircle2 } from 'lucide-react';
 import { api, stored, money, imageUrl } from './api';
 import './index.css';
-const customerUrl=import.meta.env.VITE_CUSTOMER_URL||'http://localhost:5173';
+const customerUrl=import.meta.env.VITE_CUSTOMER_URL||(import.meta.env.PROD?'https://gourmet-restaurant-omega.vercel.app':'http://localhost:5173');
 function ErrorBox({message}) { return message?<div className="error" role="alert">{message}</div>:null; }
 function Status({value}) { return <span className={`badge ${value}`}>{value?.replaceAll('_',' ') || 'pending'}</span>; }
 function Loading() { return <div className="empty" role="status">Loading your restaurant…</div>; }
